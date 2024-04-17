@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "opensearch-ingestor"
+version = "0.1.0"
+description = ""
+authors = [
+    "bkovaluk <bkovaluk@gmail.com>",
+]
+readme = "README.md"
+packages = [
+    { include = "opensearch_ingestor" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.34.85"
+opensearch-py = "^2.5.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
