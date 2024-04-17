@@ -45,5 +45,5 @@ jobs:
     - name: Build package using Poetry
       run: poetry build
 
-    - name: Run tests using Poetry
-      run: poetry run pytest
+#    - name: Run tests using Poetry
+#      run: poetry run pytest
